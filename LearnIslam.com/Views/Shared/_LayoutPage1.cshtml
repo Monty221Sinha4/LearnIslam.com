@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap-utilities.rtl.min.css" rel="stylesheet" />
+    <link href="~/Content/NewStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.esm.js"></script>
+    <link href="~/Content/NewStyle.css" rel="stylesheet" />
+    <title>@ViewBag.LearnIslam.com</title>
+</head>
+<body>
+    <img src="~/Images/Good 1.jpg"  width="200" height="200"/>
+    <div style="color:green">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Learn About Islam</h1>
+            </div>
+        </div>
+        <nav>
+            @Html.ActionLink("Home", "Home", "Home")
+            @Html.ActionLink("Gallery", "Gallery", "Home")
+            @Html.ActionLink("History", "History", "Home")
+        </nav>
+
+        <div>
+        </div>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
