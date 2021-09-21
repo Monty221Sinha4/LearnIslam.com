@@ -21,5 +21,9 @@ namespace LearnIslam.com.Controllers
         {
             return View();
         }
+        public ActionResult Quran()
+        {
+            return View();
+        }
     }
 }
