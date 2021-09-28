@@ -134,6 +134,7 @@
     <Content Include="Images\Good 1.jpg" />
     <Content Include="Images\Hello.jpg" />
     <Content Include="Images\Quran 12.jpg" />
+    <Content Include="Images\Russian Mosque.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -187,6 +188,7 @@
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Home\History.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Quran.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
